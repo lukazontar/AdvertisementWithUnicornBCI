@@ -4,9 +4,9 @@ import datetime
 import streamlit as st
 import uuid
 
-from lib.experiment.enum.ExperimentalStepEnum import ExperimentalStepEnum
-from lib.experiment.singleton.RecorderSingleton import RecorderSingleton
-from lib.experiment.util import *
+from util.experiment.enum.ExperimentalStepEnum import ExperimentalStepEnum
+from util.experiment.singleton.RecorderSingleton import RecorderSingleton
+from util.experiment.util import *
 
 
 def st_start_experiment():

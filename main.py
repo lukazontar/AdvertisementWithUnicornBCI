@@ -1,7 +1,7 @@
 import datetime
 import pandas as pd
 
-from lib.ad_scraper.FBAdLibraryPartyPageScraper import FBAdLibraryPartyPageScraper
+from util.ad_scraper.FBAdLibraryPartyPageScraper import FBAdLibraryPartyPageScraper
 
 
 def parliamentarian_election_data(data: pd.DataFrame):

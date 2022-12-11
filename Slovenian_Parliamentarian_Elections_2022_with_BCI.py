@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-from lib.experiment.enum.ExperimentalStepEnum import ExperimentalStepEnum
+from util.experiment.enum.ExperimentalStepEnum import ExperimentalStepEnum
 
 
 def st_main():
